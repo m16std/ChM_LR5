@@ -9,7 +9,7 @@ namespace WpfApplication1
 
     public class Main
     {
-        int exercise = 1;
+        int exercise = 6;
 
         readonly List<double> Xi_tab1 = new List<double>() { 0.134, 0.561, 1.341, 2.291, 6.913 };
         readonly List<double> Yi_tab1 = new List<double>() { 2.156, 3.348, 3.611, 4.112, 4.171 };
@@ -49,7 +49,7 @@ namespace WpfApplication1
         void ex1()
         {
             Points1 = metod.tab(Points1, Xi_tab1, Yi_tab1);
-            Points2 = metod.Lagrange(Points2, Xi_tab1, Yi_tab1, 0, 7);
+            Points3 = metod.Lagrange(Points3, Xi_tab1, Yi_tab1, 0, 7);
         }
         void ex2()
         {
