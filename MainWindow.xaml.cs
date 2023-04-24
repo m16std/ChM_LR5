@@ -7,6 +7,8 @@
         public MainWindow()
         {
             InitializeComponent();
+            Main _main = new Main();
+            TextBox1.Text = _main.some_pice_of_shit;
         }
     }
 }
